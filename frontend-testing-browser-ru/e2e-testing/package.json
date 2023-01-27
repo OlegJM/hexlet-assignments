@@ -4,7 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "test": "set JEST_PUPPETEER_CONFIG=jest-puppeteer.config.cjs&&jest --colors",
+    "test": "JEST_PUPPETEER_CONFIG=jest-puppeteer.config.cjs jest --colors",
     "start": "node server/bin/server.js"
   },
   "author": "Hexlet",

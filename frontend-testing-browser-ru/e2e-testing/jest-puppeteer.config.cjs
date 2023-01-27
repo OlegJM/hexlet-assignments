@@ -1,10 +1,10 @@
 module.exports = {
   server: {
-    command: 'set PORT=5000&&npm start',
+    command: 'PORT=5000 npm start',
     port: 5000,
   },
   launch: {
-    executablePath: '',
+    executablePath: '/usr/bin/google-chrome',
     defaultViewport: {
       width: 1920,
       height: 1080,
